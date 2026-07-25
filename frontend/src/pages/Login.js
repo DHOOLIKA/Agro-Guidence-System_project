@@ -64,10 +64,13 @@ const Login = () => {
       return;
     }
     try {
-      const response = await axios.post("http://localhost:5000/register_face", {
-        name: name.trim(),
-        image: imageSrc
-      });
+    const response = await axios.post(
+  "https://agro-guidence-backend.onrender.com/register_face",
+  {
+    name: name.trim(),
+    image: imageSrc
+  }
+);
       if (response.data.status === "success") {
         setTimeout(() => {
           setIsScanning(false);
