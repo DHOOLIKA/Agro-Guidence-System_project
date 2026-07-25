@@ -1,0 +1,85 @@
+/* Land Area Full Page */
+.land-page-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0b1a2a; /* Unga Dark Blue color code */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Land Area Card */
+.land-main-card {
+  background-color: #f0f4f0; /* Sage Green background for card */
+  width: 90%;
+  max-width: 420px;
+  padding: 40px;
+  border-radius: 20px;
+  border: 3px solid #1b4332;
+  text-align: center;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+}
+
+.land-title {
+  color: #1b4332;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.land-subtitle {
+  color: #1b4332;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+/* Input Section */
+.land-input-section {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.land-label {
+  display: block;
+  font-weight: bold;
+  color: #1b4332;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.land-input-field {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #c8d6cf;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box; /* Squeeze aagama irukka */
+  outline: none;
+}
+
+.land-input-field:focus {
+  border-color: #1b4332;
+  box-shadow: 0 0 5px rgba(27, 67, 50, 0.2);
+}
+
+/* Button Styling */
+.land-next-btn {
+  background-color: #1b4332;
+  color: white;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.land-next-btn:hover {
+  background-color: #2d6a4f;
+  transform: translateY(-2px);
+}

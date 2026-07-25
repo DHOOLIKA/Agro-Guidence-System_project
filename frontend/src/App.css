@@ -1,0 +1,26 @@
+:root {
+  --navy-blue: #0b1a2a;      /* Background Blue */
+  --card-cream: #fdfdf5;     /* Card Off-White */
+  --farm-green: #1b4332;     /* Dark Green Header */
+  --accent-green: #2d6a4f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* Dark blue background confirm aagum */
+  background-color: var(--navy-blue); 
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-app {
+  /* Idhu thaan card-ah horizontal and vertical-ah center pannum */
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
